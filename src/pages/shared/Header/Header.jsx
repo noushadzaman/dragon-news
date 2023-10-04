@@ -3,10 +3,10 @@ import moment from 'moment';
 
 const Header = () => {
     return (
-        <div>
-            <img src={logo} alt="" />
-            <p>Journalism Without Fear or Favour</p>
-            <p className='text-xl'>{moment().format('dddd, MMMM D, YYYY')}</p>
+        <div className='text-center'>
+            <img className='mx-auto mt-[50px] mb-[20px]' src={logo} alt="" />
+            <p className='text-[#706F6F]'>Journalism Without Fear or Favour</p>
+            <p className='text-xl text-[#706F6F]'>{moment().format('dddd, MMMM D, YYYY')}</p>
         </div>
     );
 };
