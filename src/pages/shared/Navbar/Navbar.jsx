@@ -32,7 +32,7 @@ const Navbar = () => {
                         <img src={userDefaultPicture} />
                     </div>
                 </label>
-                <Link>
+                <Link to="/login">
                     <button className="btn bg-[#403F3F] text-[white]">Login</button>
                 </Link>
             </div>
